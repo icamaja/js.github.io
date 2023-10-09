@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KELAS INDUSTRI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-5" href="contoh.html">Contoh Js</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- End Navbar -->
+
+    <!-- Content 1 -->
+    <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title fs-1"><b>CONTOH PEMROGRAMAN JAVASCRIPT</b></h5>
+          <p class="card-text fs-4">Jadi kali ini saya akan menunjukan contoh dari pemrograman yang ada di Javascript<br>
+          Ayo kita lihat</p>
+        </div>
+        </div>
+    <!-- End Content 1 -->
+     <!-- Content 2 -->
+     <div class="card" style="width: 98rem;">
+        <div class="card-body">
+          <h5 class="card-title fs-1">Contoh Javascript</h5>
+          <p class="card-text fs-4"><br>1.Penggunaan Alert:</p><button  type="button" class="btn btn-secondary" onclick="tampilkanAlert()">klik!! alert hello world</button>
+
+          <script>
+              function tampilkanAlert() {
+                  alert("Hello World");
+              }
+        </script>
+        <p class="card-text fs-4"><br>2.Penggunaan variabel dan constanta :<br>perkalian antara 14 dan 15</p><button  type="button" class="btn btn-secondary" onclick="oprasiHitung()">Klik!! Hitung</button>
+
+            <script>
+                function oprasiHitung(){
+                    var angka1 = 14
+                    var angka2 = 15
+                    const hasil = angka1 * angka2
+                
+                alert("Hasil dari perkalian "+angka1+" dan "+angka2+" adalah "+hasil)
+                }
+            </script>
+        <div class="card-footer text-body-secondary text-center">
+            09/10/2023 by Haitsam XI RPL 2
+          </div>
+        </div>
+      </div>   
+     <!-- End Content 2 -->
+
+
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
